@@ -1,4 +1,8 @@
-﻿@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+﻿/* @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css); */
+@font-face{
+	src: url("../fonts/JejuGothic.ttf");
+    font-family: "Jeju Gothic"; 
+ }
 
 html, body, div, img, ul, li, a, h2, h4, iframe, p, button, span, address, table { margin:0; padding:0; box-sizing:border-box }
 li { list-style:none }
@@ -48,18 +52,16 @@ a { text-decoration:none }
 .menutop_txt2 { display:inline-block; margin-left:40px; vertical-align:top }
 .menutop2 h1 { font-size:30px; color:#b81616 }
 .menutop2 p { letter-spacing:-1px; font-weight:800 }
-.menubottom2 { width100%; padding-bottom:70px}
+.menubottom2 { width:100%; padding-bottom:70px}
 .menubox { width:80%; margin:100px auto 50px;}
 .menubox img { width:29%; }
-.menubox .menutxt2 { display:inline-block; width:70%;
-                                       vertical-align:top; text-align:justify; padding-left:15px }
+.menubox .menutxt2 { display:inline-block; width:70%; vertical-align:top; text-align:justify; padding-left:15px }
 .menubox h3 { }
 .menubox p { color:grey; font-weight:800; letter-spacing:-1px }
 
 .top { width:60px; height:60px; position:fixed; bottom:75px; right:0; z-index:2}
 
-.footer { clear:both; width:100%; background:#1c1c1c; color:#f1f1f1; padding:10px 5px;
-             position:relative; overflow:hidden; }
+.footer { clear:both; width:100%; background:#1c1c1c; color:#f1f1f1; padding:10px 5px; position:relative; overflow:hidden; }
 .footer span {vertical-align:middle; color:#ffc300; font-weight:800; font-size:14px}
 .footer img {vertical-align:middle; width:40px; height:40px; margin:0 5px}
 .share { width:60%; display:inline-block }
@@ -86,7 +88,7 @@ a { text-decoration:none }
   .pccontainer { display:none }
   .tabcontainer { display:block; padding-top:70px }
   .footer span { display:none }
-  .tabbox .inner {border-top:0.5px solid #silver;}
+  .tabbox .inner {border-top:0.5px solid silver;}
   .hammenu { display:block; font-size:16px }
   .top { width:60px; height:60px; position:fixed; bottom:100px; right:0; z-index:2}
 }
@@ -102,11 +104,10 @@ a { text-decoration:none }
   .hamdrop { width:150px }
   .menutop2 img { display:none }
   .menutop_txt2 { display:inline-block; margin-left:0px; vertical-align:none }
-  .menubottom2 { width100%; padding-bottom:70px}
+  .menubottom2 { width:100%; padding-bottom:70px}
   .menubox { width:80%; margin:100px auto 50px; text-align:center}
   .menubox img { width:50%; }
-  .menubox .menutxt2 { width:70%;
-                                  vertical-align:top; text-align:center; padding-left:0px }
+  .menubox .menutxt2 { width:70%; vertical-align:top; text-align:center; padding-left:0px }
   .menubox h3 { }
   .menubox p{ color:grey; font-weight:800; letter-spacing:-1px }
   .menubox p.detail { display:none }

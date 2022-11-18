@@ -1,4 +1,8 @@
-﻿@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+﻿/* @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css); */
+@font-face{
+	src: url("../fonts/JejuGothic.ttf");
+    font-family: "Jeju Gothic"; 
+ }
 
 html, body, div, img, ul, li, a, h2, h4, iframe, p, button, span, address { margin:0; padding:0; box-sizing:border-box }
 li { list-style:none }
@@ -82,7 +86,7 @@ a { text-decoration:none }
   .pccontainer { display:none }
   .tabcontainer { display:block; padding-top:70px }
   .footer span { display:none }
-  .tabbox .inner {border-top:0.5px solid #silver;}
+  .tabbox .inner {border-top:0.5px solid silver;}
   .hammenu { display:block; font-size:16px}
   .footer {clear:both }
 .storewrap { width:80%; margin:0 auto; padding-bottom:50px;}
@@ -98,8 +102,7 @@ a { text-decoration:none }
 .rightcol form { font-size:14px; margin-left:0px }
 
 .storewrap .btns { text-align:center; padding:50px 0 }
-.storewrap .find { font-size:18px; border:none; border-radius:30px; padding:8px 16px; margin-right:8px;
-                         background:#b81616; color:#fff; cursor:pointer }
+.storewrap .find { font-size:18px; border:none; border-radius:30px; padding:8px 16px; margin-right:8px; background:#b81616; color:#fff; cursor:pointer }
 .storewrap img.map { width:100% }
 }
 
