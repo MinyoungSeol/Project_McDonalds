@@ -1,0 +1,97 @@
+﻿html, body, div, img, ul, li, a, h2, h4, iframe, p, button, span, address, table { margin:0; padding:0; box-sizing:border-box }
+li { list-style:none }
+a { text-decoration:none }
+
+.header { width:100%; background:#b81616;/* overflow:hidden; */position:relative; text-align:center }
+.header img { width:70px; height:70px; padding:10px; display:inline-block; }
+.header .nav { display:inline-block; vertical-align:middle;
+                    border-top:1px solid maroon; width:100%;  }
+.nav a { float:left; font-size:16px; float:left;
+              color:#fff; text-align:center; width:8.3333%; padding:20px 10px; transition:0.5s ease;
+            font-family: 'Do Hyeon', sans-serif; }
+.nav a:hover:not(.active) { background:maroon; color:#ffc300; }
+.nav a.active { background:maroon; color:#ffc300;}
+
+.hammenu { position:relative; display:inline-block; float:right; top:8px; display:none }
+.header img.hamimg { position:relative; top:0px; right:10px; width:60px; height:60px; }
+.hamdrop { width:200px; position:absolute; right:0; top:65px; text-align:right; display:none; z-index:1 }
+.hamdrop a { display:block; padding:15px; background:#1c1c1c; color:#ffc300;
+                  font-family: 'Do Hyeon', sans-serif;}
+.header .hammenu:hover .hamdrop { display:block }
+.hamdrop a:hover:not(.active2) { background:maroon }
+.hamdrop a.active2 { background:maroon }
+
+.pccontainer { position:relative; width:100%; background:#f1f1f1 }
+.menutop { width:80%; border-bottom:2px solid darkgrey; margin:0 auto; position:relative;
+                padding:50px 30px }
+.menutop img { width:200px }
+.menutop_txt { display:inline-block; vertical-align:top; margin-left:40px }
+.menutop h1 { font-size:35px; color:#b81616 }
+.menutop p { letter-spacing:-1px; font-weight:800 }
+.menubottom { width:80%; margin:100px auto 0 }
+.table { margin:0 auto; width:100%; border:1px solid; text-align:center}
+.burger_box { display:inline-block; border:1px solid blue; width:25%; height:250px}
+.imgbox { width:150px; border:1px solid; overflow:hidden; margin: auto }
+.imgbox a img { width:100%; transition:0.5s ease; border:1px solid green }
+.imgbox img:hover { opacity:0.7; width:160px; height:160px }
+.table h4 { padding:10px 0; font-size:16px }
+.table p { padding: 10px 0; font-size:13px; color:grey }
+
+
+
+.tabcontainer { width:100%; /* margin:40px 0 */ display:none }
+.menutop2 { width:90%; border-bottom:2px solid darkgrey; margin:0 auto; position:relative;
+                padding:50px 30px }
+.menutop2 img { width:200px }
+.menutop_txt2 { display:inline-block; margin-left:40px; vertical-align:top }
+.menutop2 h1 { font-size:30px; color:#b81616 }
+.menutop2 p { letter-spacing:-1px; font-weight:800 }
+.menubottom2 { width100%; padding-bottom:70px}
+.menubox { width:80%; margin:100px auto 50px;}
+.menubox img { width:29%; }
+.menubox .menutxt2 { display:inline-block; width:70%;
+                                       vertical-align:top; text-align:justify; padding-left:15px }
+.menubox h3 { }
+.menubox p { color:grey; font-weight:800; letter-spacing:-1px }
+
+
+.footer { clear:both; width:100%; background:#1c1c1c; color:#f1f1f1; padding:10px 5px;
+             position:relative; overflow:hidden; }
+.footer span {vertical-align:middle; color:#ffc300; font-weight:800; font-size:14px}
+.footer img {vertical-align:middle; width:40px; height:40px; margin:0 5px}
+.share { width:60%; display:inline-block }
+.add { width:40%; float:right; text-align:right }
+.footer address { font-style:normal; font-size:12px; }
+.footer address a { color:#f1f1f1 }
+
+@media (max-width:768px) 
+{ .tabcontainer { background:#f1f1f1 }
+  .header .nav {display:none; }
+  .header img.hammenu { display:block}
+  .pccontainer { display:none }
+  .tabcontainer { display:block }
+  .footer span { display:none }
+  .tabbox .inner {border-top:0.5px solid #silver;}
+  .hammenu { display:block}
+}
+
+@media (max-width:480px)
+{ .tabcontainer img.mainbannertab { display:none }
+  .inner { width:100%; border:1px solid; display:none }
+  .tabcontainer h2 { font-size:33px; padding-top:60px }
+  .tabcontainer h4 { font-size:20px}
+  .footer { text-align:center; padding:20px 0 }
+  .share { width:100%; margin-bottom:20px}
+  .add { width:100%; text-align:center; padding:10px 30px }
+  .hamdrop { width:150px }
+  .menutop2 img { display:none }
+  .menutop_txt2 { display:inline-block; margin-left:0px; vertical-align:none }
+  .menubottom2 { width100%; padding-bottom:70px}
+  .menubox { width:80%; margin:100px auto 50px; text-align:center}
+  .menubox img { width:50%; }
+  .menubox .menutxt2 { width:70%;
+                                  vertical-align:top; text-align:center; padding-left:0px }
+  .menubox h3 { }
+  .menubox p{ color:grey; font-weight:800; letter-spacing:-1px }
+  .menubox p.detail { display:none }
+}
